@@ -5,6 +5,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 <script type="text/javascript">
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     // More API functions here:
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
@@ -57,12 +59,12 @@
         }
     }
     
-   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
+  
+
+</script>
+ <df-messenger
   intent="WELCOME"
   chat-title="Inteligencia_Artificial_II"
   agent-id="2bbff64e-7129-44f7-9640-842bb4e11487"
   language-code="es"
 ></df-messenger>
-</script>
- 
