@@ -56,7 +56,6 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
-</script>
  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
@@ -64,3 +63,6 @@
   agent-id="2bbff64e-7129-44f7-9640-842bb4e11487"
   language-code="es"
 ></df-messenger>
+
+</script>
+
