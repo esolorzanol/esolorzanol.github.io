@@ -56,4 +56,13 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
+    
+
 </script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Inteligencia_Artificial_II"
+  agent-id="2bbff64e-7129-44f7-9640-842bb4e11487"
+  language-code="es"
+></df-messenger>
