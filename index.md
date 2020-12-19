@@ -1,5 +1,5 @@
 <div>Detecta sentimientos de las personas</div>
-<button type="button" class="btn" onclick="init()">Try it</button>
+<button type="button" class="btn" background-color="#4CAF50" onclick="init()">Try it</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
