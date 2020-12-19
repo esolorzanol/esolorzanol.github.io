@@ -1,7 +1,8 @@
-<div>Detecta sentimientos de las personas</div>
+<div id="div1" class="page-header">Detecta sentimientos de las personas
 <button type="button" class="btn" background-color="#4CAF50" onclick="init()">Try it</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 <script type="text/javascript">
