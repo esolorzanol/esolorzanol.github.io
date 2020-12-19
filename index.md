@@ -6,11 +6,13 @@
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 <script type="text/javascript">
+    function myName() {
     var p = document.createElement("p");
     p.innerHTML = "Erwing Solorzano, Jefferson Osorio";
     var x = document.getElementsByClassName("site-footer");
     x.appendChild(p);
-    
+    }
+    myName()
 </script>
 <script type="text/javascript">
     // More API functions here:
